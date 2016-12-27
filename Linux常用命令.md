@@ -21,3 +21,6 @@ lsb_release -a
 cat /proc/version
 uname -a
 ```
+
+系统安全设置常用资料：
+https://www.linode.com/docs/security/securing-your-server
