@@ -10,4 +10,10 @@
     sudo apt-get install sudo
     adduser new_user
     adduser new_user sudo
+查看系统版本：
+```
+lsb_release -a
+```
+
+
  
