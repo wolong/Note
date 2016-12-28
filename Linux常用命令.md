@@ -3,7 +3,8 @@
 更改时区：
 
     sudo apt-get install ntpdate
-    tzselect
+    dpkg-reconfigure tzdata #debian
+    timeconfig # centos
 
 添加新用户：
 
