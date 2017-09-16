@@ -14,3 +14,6 @@ private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
         e.Handled = true; //这段用于消除警告音
     }
 }
+···
+ceshi 
+```
