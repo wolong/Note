@@ -1,6 +1,6 @@
 # vimtutor 读书笔记
 
-注：本笔记为github用户wjp2013所写（原链接：https://github.com/wjp2013/the_room_of_exercises）
+注：本笔记为github用户wjp2013所写（原链接：https://github.com/wjp2013/the_room_of_exercises ）
 
 由于不太会fork单独一个文件，就拷贝到这里了，可能以后会进行修改。
 
