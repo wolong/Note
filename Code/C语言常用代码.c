@@ -1,4 +1,4 @@
-//
+// 在C语言中打印二进制
 void print_bin(int n)
 {
     int l = sizeof(n)*8;//总位数。
