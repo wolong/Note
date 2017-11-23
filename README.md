@@ -13,7 +13,7 @@
 - [Windows常用命令](./Windows常用命令.md)
 - [Linux常用命令](./Linux常用命令.md)
 - [树莓派常用设置](./树莓派常用设置.md)
-- [Mac OS常用设置](./Mac OS常用设置.md)
+- [Mac OS常用设置]("./Mac OS常用设置.md")
 
 ## 修改记录
 
