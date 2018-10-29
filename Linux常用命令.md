@@ -3,9 +3,9 @@
 更改时区：
 
 ```bash
-    sudo apt-get install ntpdate
-    dpkg-reconfigure tzdata #debian
-    timeconfig # centos
+sudo apt-get install ntpdate
+dpkg-reconfigure tzdata #debian
+timeconfig # centos
 ```
 
 添加新用户：
