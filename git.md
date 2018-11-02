@@ -2,8 +2,12 @@
 
 设置基本信息
 
-```
+使用 `git config --system --list` 查看当前配置
 
+如果没有配置，则使用如下命令进行配置：
+```
+git config --global user.name "myname"
+git config --global user.email  "test@gmail.com"
 ```
 
 同步远程库到本地：
@@ -29,7 +33,7 @@ From github.com:{User}/Understanding_Unix-Linux_Programming
  ```
  $ git log master.. origin/master
 commit ce39f8b3eeee898a2a038444f897f2aef3673493
-Author: {User} <794870409@qq.com>
+Author: {User} <1234567@qq.com>
 Date:   Fri Feb 26 14:14:39 2016 +0800
 
     {The context origin added ... }
