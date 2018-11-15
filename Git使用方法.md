@@ -9,6 +9,26 @@
 git config --global user.name "myname"
 git config --global user.email  "test@gmail.com"
 ```
+配置ssh-key：
+输入命令：
+```
+ssh-keygen -t rsa -C "yourname@youremail.com"
+```
+将在用户目录下生成两个文件`id_rsa` 和 `id_rsa.pub` ，将 `id_rsa.pub` 中的内容粘贴到github中。
+
+修改`.git`文件夹下`config`中的`url`
+修改前
+```
+[remote "origin"]
+url = https://github.com/yourname/yourrepo.git
+fetch = +refs/heads/*:refs/remotes/origin/*
+```
+修改后
+```
+[remote "origin"]
+url = git@github.com:yourname/yourrepo.git
+fetch = +refs/heads/*:refs/remotes/origin/*
+```
 
 同步远程库到本地：
 
