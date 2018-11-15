@@ -17,6 +17,7 @@ ssh-keygen -t rsa -C "yourname@youremail.com"
 将在用户目录下生成两个文件`id_rsa` 和 `id_rsa.pub` ，将 `id_rsa.pub` 中的内容粘贴到github中。
 
 修改`.git`文件夹下`config`中的`url`
+修改url的目的在于把https协议改成git协议，未修改前，每次推送，都会弹出输入用户名和密码的对话框，修改成使用git协议后，就不用了。
 修改前
 ```
 [remote "origin"]
