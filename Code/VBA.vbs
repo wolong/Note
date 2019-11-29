@@ -69,3 +69,15 @@ Sub CrossCompare()
 
 	End With
 End Sub
+
+
+# 根据身份证提取性别
+=IF(MOD(MID(A2,17,1),2),"男","女")
+
+# 计算年龄
+=IF(MONTH(NOW())<MONTH(H4),INT(YEAR(NOW())-YEAR(H4))-1,IF(MONTH(NOW())>MONTH(H4),YEAR(NOW())-YEAR(H4),IF(DAY(NOW())>=DAY(H4),YEAR(NOW())-YEAR(H4),YEAR(NOW())-YEAR(H4)-1)))
+
+
+# 根据身份证提取出生年月日
+
+=MID(B2,7,4)&"年"&MID(B2,11,2)&"月"&MID(B2,13,2)&"日"
