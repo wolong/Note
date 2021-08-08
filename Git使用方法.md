@@ -5,7 +5,7 @@
 使用 `git config --system --list` 查看当前配置
 
 如果没有配置，则使用如下命令进行配置：
-```
+```bash
 git config --global user.name "myname"
 git config --global user.email  "test@gmail.com"
 ```
